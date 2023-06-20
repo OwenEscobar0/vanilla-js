@@ -10,7 +10,7 @@
 
 export { clonarArreglo, clonarObjeto, sumar, saludar };
 
-let objeto = ["🐮", "-🐺", "🦒",];
+let objeto = ["🐮", "🐺", "🦒,"];
 let objeto2 = ["🐔"];
 
 function clonarObjeto() {
@@ -19,3 +19,13 @@ function clonarObjeto() {
   return lista;
 }
 clonarObjeto();
+
+
+let sumaTotal = (acumulador, valorActual) => {
+    return acumulador + valorActual;
+}
+function sumar(...numeros){
+    return numeros.reduce(sumaTotal, 0);
+}
+const resultado = sumar (1, 2, 3, 4, 15);
+console.log({ resultado});
