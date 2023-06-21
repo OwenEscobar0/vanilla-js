@@ -20,12 +20,19 @@ function clonarObjeto() {
 }
 clonarObjeto();
 
-
 let sumaTotal = (acumulador, valorActual) => {
-    return acumulador + valorActual;
+  return acumulador + valorActual;
+};
+function sumar(...numeros) {
+  return numeros.reduce(sumaTotal, 0);
 }
-function sumar(...numeros){
-    return numeros.reduce(sumaTotal, 0);
+const resultado = sumar(1, 2, 3, 4, 15);
+console.log({ resultado });
+
+let saludo = "Hola ";
+function saludar(nombre) {
+  nombre = "Desconocido";
+
+  return saludo + nombre;
 }
-const resultado = sumar (1, 2, 3, 4, 15);
-console.log({ resultado});
+saludar();
