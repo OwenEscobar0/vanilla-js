@@ -1,10 +1,8 @@
-//let arreglo = [1,2,3,4];
-
-//function clonarArreglo(arreglo){
-//let lista = [...arreglo];
-//console.log(lista);
-//return lista;
-//}
+function clonarArreglo(arreglo) {
+  return (lista = [...arreglo]);
+}
+let lista = [1,2,3,4];
+clonarArreglo(lista);
 
 // NO MODIFICAR
 
@@ -15,7 +13,7 @@ let objeto2 = ["🐔"];
 
 function clonarObjeto() {
   let lista = objeto + objeto2;
-  console.log(lista);
+ 
   return lista;
 }
 clonarObjeto();
@@ -26,7 +24,8 @@ let sumaTotal = (acumulador, valorActual) => {
 function sumar(...numeros) {
   return numeros.reduce(sumaTotal, 0);
 }
-const resultado = sumar(1, 2, 3, 4, 15);
+const resultado = sumar(7, 5, 8, 22, 15);
+
 console.log({ resultado });
 
 let saludo = "Hola ";
