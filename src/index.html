@@ -1,15 +1,20 @@
-<!DOCTYPE html>
 <html>
+  <head>
+    <title>Reloj</title>
+  </head>
 
-<head>
-	<title>Ejemplo básico</title>
-	<meta charset="UTF-8" />
-</head>
+  <body onload="mueveReloj()">
+    <h1>RELOJ:</h1>
 
-<body>
-	<h1>La aplicación esta corriendo!</h1>
+    <form name="form_reloj">
+      <input
+        type="text"
+        name="reloj"
+        size="10"
+        onfocus="window.document.form_reloj.reloj.blur()"
+      />
+    </form>
 
-	<script src="./index.js" type="module"></script>
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>
