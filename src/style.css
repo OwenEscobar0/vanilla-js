@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(22, 22, 22);
+}
+
+div{
+    width: 47%;
+    height: 170px;
+   
+    background-color: #6373b0;
+margin-top: 100px;
+color: rgb(183, 183, 183);
+font-size: 120px;
+font-family: fantasy;
+
+
+}
+ 
+#titulo{
+    width: 49%;
+    height:50px;
+    
+    background-color:  #d3dcfc;
+    margin-top: 70px  ;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 24.7%;
+    margin-top: 50px;
+    font-family:monospace;
+    border-radius: 10px;
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
